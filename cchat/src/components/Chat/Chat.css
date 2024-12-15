@@ -1,0 +1,30 @@
+.chat-page{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.chat-container{
+    background-color: wheat;
+    height: 60%;
+    width: 50%;
+}
+
+.chat-header{
+    background-color: aqua;
+    height: 15%;
+}
+
+.chat-box{
+    border: 1px solid black;
+height: 70%;
+
+}
+
+.chat-input{
+    display: flex;
+    border: 1px solid black;
+    height: 15%;
+}

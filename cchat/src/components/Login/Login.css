@@ -1,0 +1,24 @@
+.login-page{
+    height: 100vh;
+    background: hsla(197, 100%, 63%, 1);
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%); 
+    background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.login-page-container{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page-container h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
